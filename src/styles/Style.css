@@ -2,3 +2,38 @@
     margin: 0;
     padding: 0;
 }
+.header{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(18, 2, 44);
+}
+.header-cont{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+}
+h1{
+    color: rgb(255, 187, 0);
+}
+ul{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+    margin-left: 25px;
+    color: rgb(255, 187, 0);
+    font-weight: 400;
+}
+li:hover{
+    border-bottom: 2px solid rgb(255, 187, 0);
+    transition: 2s;
+}
+a{
+    text-decoration: none;
+}

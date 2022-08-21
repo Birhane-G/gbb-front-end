@@ -3,7 +3,7 @@ import '../styles/Style.css';
 function Header() {
 
   return (
-  <header className='header'>
+  <section className='header'>
     <div className='header-cont'>
       <div className='logo'>
         <h1>GBB</h1>
@@ -20,7 +20,7 @@ function Header() {
       </nav>
         </div>
     </div>
-  </header>);
+  </section>);
 }
 
 export default Header;

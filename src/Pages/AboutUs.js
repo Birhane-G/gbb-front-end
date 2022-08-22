@@ -3,12 +3,10 @@ import React from "react";
 function AboutUs() {
   return (
     <section className="Aboutus">
-      <div className="title">
-        <h2>About Us</h2>
-      </div>
-      <div className="about-cont">
-        <div>
-            
+      <div className="about-us-cont">
+        <div className="title"></div>
+        <div className="about-cont">
+          <div></div>
         </div>
       </div>
     </section>

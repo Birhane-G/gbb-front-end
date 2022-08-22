@@ -21,7 +21,6 @@
 .sticky{
     background: var(--sticky-color);
     transition: 0.9s;
-    margin-left: 10px;
 }
 .header-cont{
     position: relative;
@@ -30,20 +29,20 @@
     align-items: center;
     margin-top: 20px;
 }
-h1{
+.logo h1{
     color: var(--nav-text);
     margin-left: 50px;
     font-size: 35px;
     font-family: 'DynaPuff', cursive;
 }
-ul{
+.navigation ul{
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
     margin-right: 80px;
 }
-li{
+.navigation ul a li{
     list-style: none;
     margin-left: 25px;
     color: var(--nav-text);
@@ -51,11 +50,11 @@ li{
     font-weight: 400;
     font-size: 20px;
 }
-li:hover{
+.navigation ul a li:hover{
     border-bottom: 2px solid var(--nav-text);
     transition: 2s;
 }
-a{
+.navigation ul a{
     text-decoration: none;
 }
 .Home{
@@ -90,6 +89,7 @@ a{
 .btn-more{
     color: var(--nav-text);
     border: 2px solid var(--nav-text);
+    text-decoration: none;
     padding: 10px 8px;
     margin-top: 40px;
     font-weight: 600;
@@ -137,7 +137,6 @@ a{
 .box{
     background-color: var(--service-color);
     margin-left: 20px;
-    /* border: 6px solid var(--section-color); */
     border-radius: 5%;
 }
 .box p{
@@ -148,8 +147,70 @@ a{
 }
 .box:hover{
     transform: scale(1.01,1.01);
+    border: 4px solid var(--section-color);
+    transition: 0.1s;
 }
 .box img{
     width: 200px;
     height: 200px;
+}
+.center{
+    background: var(--sticky-color) url(../images/centerback.jpg) fixed center;
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+}
+.center .content{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 30px;
+    padding-top: 100px;
+}
+.get{
+    background: var(--section-color) url(../images/centerback.jpg) center;
+    padding: 150px 200px;
+}
+.get a{
+    font-size: 30px;
+    background: var(--nav-text);
+    text-decoration: none;
+    color: var(--nav-color);
+    text-transform: uppercase;
+    padding: 10px 10px;
+    transition: 0.2s;
+}
+.get a:hover{
+    border: 3px solid var(--nav-text);
+    background: none;
+    color: var(--nav-text);
+    transition: 0.2s;
+}
+
+
+
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background: var(--section-color);
+    display: flex;
+    justify-content: center;
+}
+.footer .foot-cont{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 300px;
+    padding-top: 50px;
+}
+.usefullink h3{
+    color: var(--nav-text);
+}
+.usefullink ul li{
+    list-style: none;
+    color: var(--text);
+    font-size: 20px;
+}
+.usefullink ul a{
+    text-decoration: none;
 }

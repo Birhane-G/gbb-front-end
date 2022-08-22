@@ -1,6 +1,9 @@
 import Header from "../inc/Header";
 import "../styles/Style.css";
 import Service from "./Service";
+import AboutUs from "./AboutUs";
+import Center from "./Center";
+import Footer from "../inc/Footer";
 function Home() {
   return (
     <>
@@ -17,6 +20,9 @@ function Home() {
               </div>
           </div>
           <Service />
+          <Center />
+          <AboutUs />
+          <Footer />
       </section>
     </>
   );

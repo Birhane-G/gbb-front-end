@@ -25,7 +25,6 @@ function Header() {
 
 window.onscroll = function(){sticky()};
 var navbar = document.getElementById("navbar");
-
 function sticky(){
   if(window.pageYOffset >= 20)
   {

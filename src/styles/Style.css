@@ -7,6 +7,7 @@
     --text: white;
     --section-color: rgb(36, 59, 85);
     --sticky-color:rgb(20, 30, 48);
+    --service-color:rgb(210, 218, 233);
 }   
 *{
     margin: 0;
@@ -134,18 +135,21 @@ a{
     flex: auto;
 }
 .box{
-    background-color: var(--section-color);
+    background-color: var(--service-color);
     margin-left: 20px;
-    border: 6px solid var(--section-color);
+    /* border: 6px solid var(--section-color); */
     border-radius: 5%;
 }
 .box p{
-    color: var(--nav-text);
+    color: var(--main-color);
     font-size: 20px;
-    padding-top: 200px;
+    font-weight: 900;
     text-align: center;
-    
 }
 .box:hover{
     transform: scale(1.01,1.01);
+}
+.box img{
+    width: 200px;
+    height: 200px;
 }

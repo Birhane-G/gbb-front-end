@@ -6,7 +6,7 @@ function AboutUs() {
       <div className="about-us-cont">
         <div className="title"></div>
         <div className="about-cont">
-          <div></div>
+          <div>Channges Made</div>
         </div>
       </div>
     </section>
